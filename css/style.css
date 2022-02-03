@@ -10,6 +10,7 @@ html, body {
 .logo {
     width: 23%;
     padding: 1%;
+    filter: invert(100);
 }
 .navigation {
     width: 100%;
