@@ -1,16 +1,18 @@
 html, body {
     margin: 0;
     padding: 0;
-
+}
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 .inline-block {
     display: inline-block;
     vertical-align: middle;
 }
 .logo {
-    width: 23%;
     padding: 1%;
     filter: invert(100);
+    margin-left: 40px;
 }
 .navigation {
     width: 100%;
@@ -21,18 +23,24 @@ html, body {
 }
 .navlist {
     float: right;
-    margin-right: 10px;
-    margin-top: 25px;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+.nav {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
 }
 li {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     color: white;
     display: inline;
 }
 .heroImg {
     height: 600px;
     padding: 25px;
+    float: left;
 }
 .content {
     width: 500px;
@@ -40,10 +48,17 @@ li {
     padding-top: 20px;
     text-align: center;
 }
+p.content {
+    float: right;
+}
 .footer {
     color: white;
     background-color: black;
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+
 }
