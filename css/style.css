@@ -2,7 +2,39 @@ html, body, footer {
     margin: 0;
     padding: 0;
 }
-body{
+bg-img {
+    background-image: url("../images/joshua-earle-AZzfPBQA1Bk-unsplash.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: transparent;
+    font-size: 18px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body {
     font-family: 'Open Sans', sans-serif;
 }
 .inline-block {
@@ -13,23 +45,6 @@ body{
     padding: 1%;
     filter: invert(100);
     margin-left: 40px;
-}
-.navigation {
-    width: 100%;
-    margin: 0px;
-    padding: 1%;
-    background-color: black;
-    position: relative;
-}
-.navlist {
-    float: right;
-    margin-right: 35px;
-    margin-top: 30px;
-}
-.nav {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2pt;
 }
 li {
     list-style-type: none;
