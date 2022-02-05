@@ -2,7 +2,7 @@ html, body, footer {
     margin: 0;
     padding: 0;
 }
-bg-img {
+.bg-img {
     background-image: url("../images/joshua-earle-AZzfPBQA1Bk-unsplash.jpg");
     min-height: 600px;
     background-position: center;
