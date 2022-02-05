@@ -46,41 +46,6 @@ body {
     filter: invert(100);
     margin-left: 40px;
 }
-li {
-    list-style-type: none;
-    padding: 20px;
-    color: white;
-    display: inline;
-}
-.heroImg {
-    height: 400px;
-    padding: 50px;
-    float: left;
-    overflow: hidden;
-}
-.content {
-    width: 500px;
-    padding-top: 20px;
-}
-.content p {
-    font-size: 15px;
-    line-height: 21px;
-    float: right;
-    padding: 10px 10px 0px 50px;
-}
-.column {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-button {
-    float: left;
-    align-items: center;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    padding: 4px 8px 4px 8px;
-    font-size: 14px;
-}
 .footer {
     color: white;
     background-color: black;
