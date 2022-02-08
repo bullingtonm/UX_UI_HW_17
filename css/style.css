@@ -1,4 +1,4 @@
-/*--Homepage Content*/
+/* Homepage Content */
 
 html, body, footer {
     margin: 0;
@@ -35,7 +35,7 @@ html, body, footer {
 }
 .topnav a:hover {
     background-color: transparent;
-    background: -webkit-linear-gradient(80deg, rgb(34, 34, 29), rgb(153, 238, 157));
+    background: -webkit-linear-gradient(80deg, rgb(18, 49, 133), rgb(41, 212, 84));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -70,4 +70,56 @@ body {
 }
 #intro-header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* About Me */
+.about-bg-img {
+    background-image: linear-gradient(45deg, rgba(24, 25, 75, 0.3), rgba(255, 255, 255, 0.2)), url("../images/riccardo-trimeloni-lc5iIZ7UO1w-unsplash.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#about-me {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+    padding-top: 100px;
+}
+.about-text h1 {
+    padding-left: 100px;
+    padding-bottom: 18px;
+    color: white;
+    font-size: 30px;
+}
+.about-text p{
+    padding-left: 150px;
+    color: white;
+}
+.my-img {
+    text-align: center;
+    margin-right: 25px;
+}
+.skills {
+    margin-top: 70px;
+}
+.skills h1 {
+    padding-left: 100px;
+    color: #333;
+    font-size: 30px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 120px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.flex_item {
+    text-align: center;
 }
